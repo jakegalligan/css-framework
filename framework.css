@@ -1,0 +1,64 @@
+:root {
+ --shortwidth: 8.33333333%;
+}
+
+.col-1 {
+  float: left;
+  width: var(--shortwidth);
+}
+
+.col-2 {
+  float: left;
+  width: calc(var(--shortwidth) * 2);
+}
+.col-3 {
+  float: left;
+  width: calc(var(--shortwidth) * 3);
+}
+.col-4 {
+  float: left;
+  width: calc(var(--shortwidth) * 4);
+}
+.col-5 {
+  float: left;
+  width: calc(var(--shortwidth) * 5);}
+.col-6 {
+  float: left;
+  width: calc(var(--shortwidth) * 6);}
+.col-7 {
+  float: left;
+  width: calc(var(--shortwidth) * 7);}
+.col-8 {
+  float: left;
+  width: calc(var(--shortwidth) * 8);}
+.col-9 {
+  float: left;
+  width: calc(var(--shortwidth) * 9);}
+.col-10 {
+  float: left;
+  width: calc(var(--shortwidth) * 10);}
+
+.col-11 {
+  float: left;
+  width: calc(var(--shortwidth) * 11);}
+}
+.col-12{
+  float: left;
+  width:100%;
+}
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
